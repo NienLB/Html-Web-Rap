@@ -16,39 +16,38 @@ a:hover {
   color: #8a5d60;
   text-decoration: none;
 }
-#header div.container
-{
-	height: 70px;
-}
+
 
 /* --- Delivery ---*/
+#Delivery{
+	background-color: #ffffff;
+	border-bottom: 4px double #EEEEEE;
+	text-align: center;
+	padding: auto;
+}
 .text-muted p{
 	margin-bottom: 0px;
 	font-size: 14px;
 	font-weight: bold;
 
 }
-#Delivery{
-	line-height: 66px;
-	background-color: #ffffff;
-	border-bottom: 4px double #EEEEEE;
-	text-align: center;
+.text-muted{
+	height: 70px;
+	padding: 20px;
 }
-
 /*---- Header ----*/
 #header
 {
-	height: 104px;
 	padding: 16px 0px;
 }
-
-
 
 /*---component contact ---*/
 .com-contact
 {
 	width: 75%;
-	height: 70px;
+	text-align: center;
+	margin: auto;
+
 }
 
 /*--com compare--*/
@@ -69,14 +68,13 @@ a:hover {
 
 /*-- com search --*/
 .com-search{
-	width: 370px;
-	height: 52px;
-	padding: 0px;
 	float: right;
+	 margin: 10px 5px 10px ;
+	 padding: auto;
 }
 input.input-search{
 	line-height: 30px;
-	width: 300px;
+	width: 280px;
 	height: 52px;
 }
 .com-search button{
@@ -84,15 +82,15 @@ input.input-search{
 	width: 56px;
 	font-size: 20px;
 
+
 }
 
 /*-- com-shopping-cart --*/
 .com-shopping-cart 
 {
-	padding:0px;
-	height: 54px;
+	
 	line-height: 52px;
-
+	margin: 10px 10px;
 }
 .com-shopping-cart 
 .current,
@@ -120,15 +118,17 @@ input.input-search{
 /*---Top menu ---*/
 #menu-main{
 	background-color: #000000;
-	height: 74px;
+
 }
 
 #menu-main .logo img{
 	border: 8px solid #000000;
-	position: absolute;
-}
+	position: relative;
+	}
+
+
 #menu-main .menu {
-	height: 72px;
+	line-height: 72px;
 }
 
 #menu-main .menu a{
@@ -137,18 +137,30 @@ input.input-search{
 	font-size: 16px;
 	font-weight: bold;
 	padding-left: 40px;
-	line-height: 72px;
 	}
-#menu-main .menu a:hover{
-color: #FFECB3;
-text-transform: uppercase;
+#menu-main .menu a:hover
+{
+color: #FFECB3;;
+background-color: #000000;
+}
+#menu-main .menu a:focus
+{
+color: #FFECB3;;
+background-color: #000000;
 }
 
+
+#menu-main .menu button{
+	color: #ffffff;
+	background-color: #ffffff;
+}
+
+
+/*--- Banner top ---*/
 #banner-top{
-	padding: 0;
-	display: block;
+	height: 620px;
+	background: #FFECB3 url(../images/banner-2.jpg) no-repeat right top;
 
 }
 #banner-top img{
-
-}
+	 ;
