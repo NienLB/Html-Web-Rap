@@ -6,8 +6,8 @@
 * What's DOM . 
 * Jquery & Zepto.js
 * How to make a plugin in Javascripts
-1. LIGHTBOX 
-2. SILDER 
-3. MENU
-Ex: (Slicks)[https://github.com/kenwheeler/slick]
+** LIGHTBOX 
+** SILDER 
+** MENU
+Ex: [Slicks](https://github.com/kenwheeler/slick)
 * Use somes element in Javasxripts ex: display , event, overflow v.v...
