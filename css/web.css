@@ -88,7 +88,6 @@ input.input-search{
 /*-- com-shopping-cart --*/
 .com-shopping-cart 
 {
-	
 	line-height: 52px;
 	margin: 10px 10px;
 }
@@ -120,10 +119,12 @@ input.input-search{
 	background-color: #000000;
 
 }
-
+#menu-main .logo{
+	position: relative;
+}
 #menu-main .logo img{
 	border: 8px solid #000000;
-	position: relative;
+
 	}
 
 
@@ -158,9 +159,15 @@ background-color: #000000;
 
 /*--- Banner top ---*/
 #banner-top{
-	height: 620px;
-	background: #FFECB3 url(../images/banner-2.jpg) no-repeat right top;
 
 }
-#banner-top img{
-	 ;
+.slick-js .slick-slider-item {
+  outline: none;
+  display: none;
+}
+.slick-js > .slick-slider-item:first-child,
+.slick-slider .slick-slider-item {
+	display: block;
+
+
+}
