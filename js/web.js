@@ -6,15 +6,15 @@ $(document).ready(function(){
     autoplay: true,
   
   });
-	$('.center-js').slick({
-	autoplay: true,
-	speed: 1000,
-   infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3,
-  centerPadding: '20px'
+SetBannerBackground();
+
 });
+function SetBannerBackground() {
+  $('[data-bg]').each(function (i) {
+    var url_background = $(this).data("bg");
+    console.log(url_background);
+    $(this).backstretch(url_background);
+  });
+}
 	
 
-
-});
