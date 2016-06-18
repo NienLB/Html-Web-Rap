@@ -1,7 +1,13 @@
-# Note 
-The First time use git in ubuntu
+# Note SOME PROBLEMS (update is continue...)
+## (2016170604)
+* So Hard for how can know UI & UX to design.
+* Make a good view in Desktop but in Mobile it's very terrible 
+* Master color of my site is Black and Yellow . But I have some backgound and I don't know how I can use good color in site .
+*
+
 
 # Notes HackNite ( 20160604 )
+
 ### About Brand in Git 
 * Understand about Brand and how to use Brand , ex : master , gh-pages , v.v... 
 
