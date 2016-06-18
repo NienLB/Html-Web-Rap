@@ -6,6 +6,24 @@ $(document).ready(function(){
     autoplay: true,
   
   });
+  $('.slider-product').slick({
+    slidesToShow: 4,
+    arrows: false,
+    responsive: [{
+      breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          infinite: true
+        }
+      }, {
+      breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          dots: true
+        }
+    }]
+    
+  });
 SetBannerBackground();
 
 });

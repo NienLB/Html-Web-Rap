@@ -6,12 +6,15 @@ body {
 /*-- Color */
 
 a {
-  color: #372728;
+  color: #000000;
+   text-decoration: none;
+  transition: color .5s, background-color .5s;
 }
 
 a:hover {
-  color: #8a5d60;
+  color: #d5c163;
   text-decoration: none;
+  cursor: pointer;
 }
 
 
@@ -172,6 +175,12 @@ background-color: #000000;
 }
 
 /*--- Highlight---*/
+.com-item-left{
+	padding-left: 0px;
+}
+.com-item-right{
+	padding-right: 0px;
+}
 .com-highlight-item{
 	display: block;
 	position: relative;
@@ -228,21 +237,77 @@ background-color: #000000;
 
 
 /*--- Feature ProDuct ---*/
-#feat-product .title-feat {
- 
-    padding-bottom: 11px;
-    margin: 0;
-    font-size: 24px;
-    color: #222222;
-    position: relative;
-    text-transform: uppercase;
-    display: inline-block;
-    letter-spacing: 5px;
-    font-weight: 700;
-    
+.slider-product{
+	position: relative;
+	text-align: center;
+	margin-left: -12px;
+	margin-right: -12px;
 }
 
-#feat-product .title-feat h2 .word1{
-	padding-bottom: 20px;
-	border-bottom: 2px solid #222222;
+.com-product > a {
+  display: block;
+}
+
+.slider-product .com-product{
+	margin: 12px;
+}
+.com-product .img-responsive {
+  border: 1px solid #EAEAEA;
+}
+
+.com-product .com-product-image{
+	position: relative;
+}
+
+.com-product .com-product-image .icon {
+  max-height: 32px;
+}
+
+.com-product .com-product-image .icon-2x {
+  max-height: 64px;
+}
+
+.com-product .com-product-image .top-right,
+.com-product .com-product-image .bottom-left
+{
+  position: absolute;
+  
+}
+.com-product .com-product-image .top-right {
+  right: 12px;
+  top: 12px;
+}
+.com-product .com-product-image .bottom-left{
+	bottom: 12px;
+	left: 12px;
+}
+
+
+.slider-product .text-title{
+	color: #000000;
+	font-size: 18px;
+}
+.slider-product .text-title:hover {
+	color: #d5c163;
+}
+.com-product small {
+  color: #999999;
+  text-decoration: line-through;
+}
+
+
+.com-product .com-product-actions{
+	position: absolute;
+	top: 50%;
+
+	padding: 12px 6px;
+}
+
+.com-product .com-product-actions .glyphicon {
+  font-size: 24px;
+  padding: 12px;
+  margin-bottom: 4px;
+  border: 1px solid #372728;
+  color: #372728;
+  background-color: #FFFFFF;
 }
