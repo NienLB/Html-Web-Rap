@@ -175,11 +175,14 @@ background-color: #000000;
 }
 
 /*--- Highlight---*/
+@media only screen and (min-width: 991px)
+{
 .com-item-left{
 	padding-left: 0px;
 }
 .com-item-right{
 	padding-right: 0px;
+}
 }
 .com-highlight-item{
 	display: block;
@@ -243,7 +246,9 @@ background-color: #000000;
 	margin-left: -12px;
 	margin-right: -12px;
 }
-
+.com-product{
+	position: relative;
+}
 .com-product > a {
   display: block;
 }
@@ -295,19 +300,47 @@ background-color: #000000;
   text-decoration: line-through;
 }
 
-
+@media only screen and (min-width: 1024px)
+{
 .com-product .com-product-actions{
 	position: absolute;
-	top: 50%;
-
+	top: 30%;
+	width: 100%;
 	padding: 12px 6px;
+
+  opacity: 0;
+  transition: opacity 1s, top .5s;
+}
+
+
+.com-product:hover .com-product-actions {
+  visibility: visible;
+  opacity: 1;
+  top: 40%;
 }
 
 .com-product .com-product-actions .glyphicon {
   font-size: 24px;
   padding: 12px;
   margin-bottom: 4px;
-  border: 1px solid #372728;
-  color: #372728;
+  border: 1px solid #d5c163;
+  color: #d5c163;
   background-color: #FFFFFF;
+}
+
+.com-product .com-product-actions .glyphicon:hover {
+  color: #FFFFFF;
+  background-color: #d5c163;
+}
+}
+@media only screen and (max-width: 1024px)
+{
+	.com-product .com-product-actions .glyphicon {
+  font-size: 24px;
+  padding: 12px;
+  margin-bottom: 4px;
+  
+  color: #FFFFFF;
+  background-color: #d5c163;
+}
 }
