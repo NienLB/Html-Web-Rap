@@ -1,0 +1,96 @@
+
+/* --- Delivery ---*/
+#Delivery{
+	background-color: #ffffff;
+	border-bottom: 4px double #EEEEEE;
+	text-align: center;
+	padding: auto;
+}
+.text-muted p{
+	margin-bottom: 0px;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+.text-muted{
+	height: 70px;
+	padding: 20px;
+}
+/*---- Header ----*/
+#header
+{
+	padding: 16px 0px;
+}
+
+/*---component contact ---*/
+.com-contact
+{
+	width: 75%;
+	text-align: center;
+	margin: auto;
+
+}
+
+/*--com compare--*/
+.list-compare
+{
+	line-height: 34px;
+	font-size: 12px;
+	border-bottom: 1px solid #eeeeee;
+}
+.phone-contact p
+{	
+	line-height: 36px;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0px 16px;
+	margin: 0px;
+}
+
+/*-- com search --*/
+.com-search{
+	float: right;
+	 margin: 10px 5px 10px ;
+	 padding: auto;
+}
+input.input-search{
+	line-height: 30px;
+	width: 280px;
+	height: 52px;
+}
+.com-search button{
+	line-height: 38px;
+	width: 56px;
+	font-size: 20px;
+
+
+}
+
+/*-- com-shopping-cart --*/
+.com-shopping-cart 
+{
+	line-height: 52px;
+	margin: 10px 10px;
+}
+.com-shopping-cart 
+.current,
+.language
+{
+	float: left;
+	width: 90px;
+	padding-left: 16px;
+	border: 1px solid #eeeeee;
+	}
+.com-shopping-cart .shopping-cart{
+	width: 180px;
+
+	float: left;
+	position: relative;
+}
+.com-shopping-cart .shopping-cart a
+{
+	line-height: 32px;
+	background-color: #ffc861;
+	border-color: #FFCA28;
+}
+

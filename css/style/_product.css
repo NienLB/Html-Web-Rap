@@ -1,0 +1,107 @@
+
+
+/*--- Feature ProDuct ---*/
+.slider-product{
+	position: relative;
+	text-align: center;
+	margin-left: -12px;
+	margin-right: -12px;
+}
+.com-product{
+	position: relative;
+}
+.com-product > a {
+  display: block;
+}
+
+.slider-product .com-product{
+	margin: 12px;
+}
+.com-product .img-responsive {
+  border: 1px solid #EAEAEA;
+}
+
+.com-product .com-product-image{
+	position: relative;
+}
+
+.com-product .com-product-image .icon {
+  max-height: 32px;
+}
+
+.com-product .com-product-image .icon-2x {
+  max-height: 64px;
+}
+
+.com-product .com-product-image .top-right,
+.com-product .com-product-image .bottom-left
+{
+  position: absolute;
+  
+}
+.com-product .com-product-image .top-right {
+  right: 12px;
+  top: 12px;
+}
+.com-product .com-product-image .bottom-left{
+	bottom: 12px;
+	left: 12px;
+}
+
+
+.slider-product .text-title{
+	color: #000000;
+	font-size: 18px;
+}
+.slider-product .text-title:hover {
+	color: #d5c163;
+}
+.com-product small {
+  color: #999999;
+  text-decoration: line-through;
+}
+
+@media only screen and (min-width: 1024px)
+{
+.com-product .com-product-actions{
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	padding: 12px 6px;
+
+  opacity: 0;
+  transition: opacity 1s, top .5s;
+}
+
+
+.com-product:hover .com-product-actions {
+  visibility: visible;
+  opacity: 1;
+  top: 40%;
+}
+
+.com-product .com-product-actions .glyphicon {
+  font-size: 24px;
+  padding: 12px;
+  margin-bottom: 4px;
+  border: 1px solid #d5c163;
+  color: #d5c163;
+  background-color: #FFFFFF;
+}
+
+.com-product .com-product-actions .glyphicon:hover {
+  color: #FFFFFF;
+  background-color: #d5c163;
+}
+}
+@media only screen and (max-width: 1024px)
+{
+	.com-product .com-product-actions .glyphicon {
+  font-size: 24px;
+  padding: 12px;
+  margin-bottom: 4px;
+  
+  color: #FFFFFF;
+  background-color: #d5c163;
+}
+}

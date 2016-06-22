@@ -1,0 +1,64 @@
+
+/*--- Highlight---*/
+@media only screen and (min-width: 991px)
+{
+.com-item-left{
+	padding-left: 0px;
+}
+.com-item-right{
+	padding-right: 0px;
+}
+}
+.com-highlight-item{
+	display: block;
+	position: relative;
+	height: 300px;
+	overflow: hidden;
+
+
+}
+.com-highlight-item h2,h3{
+
+	margin-top: 0;
+	border: 2px solid #EEEEEE;
+
+}
+.com-highlight-item .com-highlight-item-inner {
+	position: absolute;
+	transition: color .5s, padding .4s;
+
+}
+
+.com-highlight-item:hover .com-highlight-item-inner {
+  padding: 0 12px;
+  color: #EAEAEA;
+}
+.com-highlight-item .com-highlight-item-inner.bottom-left{
+	bottom: 24px;
+	left: 24px;
+	color: #EAEAEA;
+}
+.com-highlight-item:hover .bottom-left{
+  color: #000000;
+}
+.com-highlight-item .center{
+	top: 100px;
+	bottom: 100px;
+	left: 100px;
+	right: 100px;
+	text-align: center;
+	color: #000000;
+
+}
+.com-highlight-item:hover .center{
+  padding: 10px 0;
+
+}
+.com-highlight-item .top-right{
+	top:24px;
+	right:24px;
+	text-align: right;
+	color: #000000;
+
+}
+

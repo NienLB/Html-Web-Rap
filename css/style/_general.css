@@ -1,0 +1,18 @@
+/*----General ----*/
+body {
+	font-size: 14px;
+}
+
+/*-- Color */
+
+a {
+  color: #000000;
+   text-decoration: none;
+  transition: color .5s, background-color .5s;
+}
+
+a:hover {
+  color: #d5c163;
+  text-decoration: none;
+  cursor: pointer;
+}

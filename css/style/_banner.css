@@ -1,0 +1,60 @@
+
+/*--- Top menu ---*/
+#menu-main{
+	background-color: #000000;
+
+}
+#menu-main .logo{
+	position: relative;
+}
+#menu-main .logo img{
+	border: 8px solid #000000;
+
+	}
+
+
+#menu-main .menu {
+	line-height: 72px;
+}
+
+#menu-main .menu a{
+	display: inline-block;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 40px;
+	}
+#menu-main .menu a:hover
+{
+color: #FFECB3;;
+background-color: #000000;
+}
+#menu-main .menu a:focus
+{
+color: #FFECB3;;
+background-color: #000000;
+}
+
+
+#menu-main .menu button{
+	color: #ffffff;
+	background-color: #ffffff;
+}
+
+
+/*--- Banner top ---*/
+#banner-top{
+
+}
+.slick-js{
+	z-index: -1;
+
+}
+.slick-js .slick-slider-item {
+  outline: none;
+  display: none;
+}
+.slick-js > .slick-slider-item:first-child,
+.slick-slider .slick-slider-item {
+	display: block;
+}
