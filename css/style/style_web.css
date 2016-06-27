@@ -1,7 +1,7 @@
-@import "_general.css";
-@import "_overwrite.css";
-@import "_header.css";
-@import "_banner.css";
-@import "_highlight.css";
-@import "_product.css";
-@import "_sale-product"
+@import url(../style/_general.css);
+@import url(../style/_overwrite.css);
+@import url(../style/_header.css);
+@import url(../style/_banner.css);
+@import url(../style/_highlight.css);
+@import url(../style/_product.css);
+@import url(../style/_sale-product)
