@@ -1,0 +1,96 @@
+/*--- com-sale-product */
+.com-sale-product .com-sale-product-img img{
+		margin: 0 auto;
+		display: block;
+
+}
+
+.com-sale-product .com-sale-product-countdown {
+	text-align: center;
+}
+.com-sale-product .com-sale-product-countdown .countdown-item{
+	color: #000000;
+	border-radius: 50px;
+	margin-bottom: 24px;
+	font-size: 24px;
+	position: relative;
+	background-color: #d5c163 ;
+}
+.com-sale-product .com-sale-product-countdown .countdown-item 
+.days,
+.hours,
+.minutes,
+.seconds
+{
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	bottom: 50%;
+	left: 40%;
+}
+
+.com-sale-product .com-sale-product-countdown .countdown-item p{
+	padding-top: 12px;
+	color: #FFFFFF;
+}
+
+/*--Desktop*/
+@media only screen and (min-width: 1024px) {
+.com-sale-product .com-sale-product-countdown {	
+	height: 900px;
+	margin-top: 140px;
+}
+
+.com-sale-product .com-sale-product-countdown .countdown-item{
+	height: 140px;
+	width: 140px;	
+}
+}
+
+/*--tab*/
+@media only screen and (max-width: 1024px){
+.com-sale-product .com-sale-product-countdown {
+	display: inline-block;
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 48px;
+
+}
+
+.com-sale-product .com-sale-product-countdown .countdown-item{
+	float: left;
+	margin-left: 24px;
+	height: 140px;
+	width: 140px;	
+}
+}
+
+/*--mobile*/
+@media only screen and (max-width: 321px){
+.com-sale-product .com-sale-product-countdown {
+	display: inline-block;
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 48px;
+
+}
+
+.com-sale-product .com-sale-product-countdown .countdown-item{
+	float: left;
+	margin-left: 24px;
+	height: 80px;
+	width: 80px;	
+}
+
+.com-sale-product .com-sale-product-countdown .countdown-item 
+.days,
+.hours,
+.minutes,
+.seconds
+{
+	font-size: 18px;
+}
+.com-sale-product .com-sale-product-countdown .countdown-item p{
+	font-size: 12px;
+}
+}	

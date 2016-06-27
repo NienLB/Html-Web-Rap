@@ -44,7 +44,7 @@ background-color: #000000;
 
 /*--- Banner top ---*/
 #banner-top{
-
+	margin-bottom: 12px;
 }
 .slick-js{
 	z-index: -1;
