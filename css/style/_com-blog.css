@@ -1,0 +1,34 @@
+/* --- Blog*/
+
+#com-blog h2 {
+	
+}
+#com-blog h3 {
+	border: none;
+}
+
+.com-blogs  {
+	border: 1px solid #EAEAEA;
+}
+.com-blogs .img-blog img{
+	margin: 0 auto;
+}
+.com-blogs{
+	
+	display: inline-block;
+}
+
+.com-blogs .com-blog-item{
+	padding: 12px 12px;
+
+}
+
+.com-blogs .title-blog {
+	margin-top: 12px;
+	transition: border 1s, padding .8s;
+}
+
+.com-blogs .title-blog:hover{
+	border-left: 2px solid #EAEAEA;
+	padding-left: 12px;
+}

@@ -1,0 +1,34 @@
+/*--- About*/
+
+#footer {
+	background-color: #252525;
+}
+#footer #subscribe{
+	background-color: #ffffff;
+}
+
+#com-about h3{
+	border: none;
+}
+#com-about a {
+	color: #ffffff;
+	padding: 12px;
+	font-size: 18px;	
+}
+#com-about a:hover {
+	color: #f0f1ad;
+}
+#com-about p {
+	padding: 8px;	
+}
+#com-about 
+{
+	color: #ffffff;
+	height: 300px;
+	padding: 48px;
+	margin-bottom: 24px;
+}
+
+#Copyright{
+	color: #ffffff;
+}
