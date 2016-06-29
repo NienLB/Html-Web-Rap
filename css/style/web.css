@@ -89,6 +89,7 @@ input.input-search{
 
 }
 
+
 /*-- com-shopping-cart --*/
 .com-shopping-cart 
 {
@@ -117,6 +118,34 @@ input.input-search{
 	border-color: #FFCA28;
 }
 
+@media only screen and (max-width: 360px){
+	.com-search{
+	float: right;
+	 margin: 0 auto;
+	 padding: auto;
+	 margin-top: 24px;
+}
+input.input-search{
+	line-height: 30px;
+	width: 200px;
+	height: 52px;
+}
+.com-search button{
+	line-height: 38px;
+	width: 56px;
+	font-size: 20px;
+}
+.current{
+	margin-left: 12px;
+}
+.com-shopping-cart 
+{
+	margin-top: 24px;
+	line-height: 52px;
+	margin-left: 60px;
+}
+
+}
 
 
 /*--- Top menu ---*/
